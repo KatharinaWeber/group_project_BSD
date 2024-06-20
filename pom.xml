@@ -7,7 +7,20 @@
     <groupId>at.campus02.bsd</groupId>
     <artifactId>group_project_BSD</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <url>https://github.com/KatharinaWeber/group_project_BSD.git</url>
 
+    <developers>
+        <developer>
+            <name>Katharina Weber</name>
+            <email>s52785@edu-campus02.at</email>
+            <organization>FH CAMPUS 02</organization>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+
+    </developers>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
