@@ -2,9 +2,11 @@ package at.campus02.bsd;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class DrinkQueue implements IQueue{
     List<Drink> arrayList = new ArrayList<>();
+
 
 
     @Override
@@ -14,21 +16,37 @@ public class DrinkQueue implements IQueue{
 
     @Override
     public String poll() {
-        return null;
+        if (arrayList.size() > 0) {
+            return arrayList.remove(0).getName();
+        } else {
+            return null;
+        }
     }
 
     @Override
     public String remove() {
-        return null;
+        String element = poll();
+        if (element == null) {
+            throw new NoSuchElementException("there's no element any more");
+        }
+        return element;
     }
 
     @Override
     public String peek() {
-        return null;
+        if (!arrayList.isEmpty()) {
+            return arrayList.get(0).getName();
+        }
+        else return null;
     }
 
     @Override
     public String element() {
-        return null;
+        String element = peek();
+        if (element == null) {
+            throw new NoSuchElementException("there's no element any more");
+        }
+        return element;
     }
+
 }
