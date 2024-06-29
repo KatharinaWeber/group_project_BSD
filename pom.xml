@@ -19,6 +19,17 @@
                 <role>Student</role>
             </roles>
             <timezone>Europe/Vienna</timezone></developer>
+        <developer>
+            <id>lenabic</id>
+            <name>Lena Bichler</name>
+            <email>12032376@edu.campus02.at</email>
+            <organization>FH CAMPUS 02</organization>
+            <organizationUrl>https://www.campus02.at/wirtschaftsinformatik/</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
     </developers>
 
     <properties>
