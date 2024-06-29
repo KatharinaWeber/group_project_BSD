@@ -1,13 +1,13 @@
 package at.campus02.bsd;
 
-// put into drinkss
+// put into drinks
 public class Liquid {
     private String name;
     // volume in l
      
     private double volume;
 
-    // alcohohl percent (eg 42 ) 
+    // alcohol percent (eg 42 )
 
     private double alcoholPercent;
 
