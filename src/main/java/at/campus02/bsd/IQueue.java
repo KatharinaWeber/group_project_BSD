@@ -25,7 +25,7 @@ public interface IQueue {
    */
   public abstract String remove();
 
-  // 1st element without dlete, otherwise null
+  // 1st element without delete, otherwise null
    
   public abstract String peek();
 
