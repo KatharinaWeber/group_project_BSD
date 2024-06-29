@@ -26,12 +26,12 @@ Tasks are distributed between Team members. The name next to the tasks
 indicates who will primarily take care f this branch and/or tasks.
 - [x] branch maven : Kathi
 - [x] branch readme : Lena
-- [ ] branch maven_detail : Kathi
+- [x] branch maven_detail : Kathi
     - [x] Entwicklerinformationen in die pom Kathi
     - [x] Entwicklerinformationen in die pom Lena
     - [x] Address von Git Repository
     - [x] add Dependencies
-- [ ] branch bug_hunt : both
+- [x] branch bug_hunt : both
 - [ ] branch drink : Lena
     - [ ] add cocktails
     - [ ] add interface drink
