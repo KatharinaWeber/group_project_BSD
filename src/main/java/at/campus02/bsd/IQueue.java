@@ -1,35 +1,48 @@
 package at.campus02.bsd;
 
-// fastly written (not really nice) comments you should adapt
+/**
+ * Interface that declares the methods of a typical queue
+ */
 public interface IQueue {
-  /** 
-   * I am a really bad comment
-   * 
-   * fasdfadsffdsadsf
-   * 
-   * fdsasdfadsf
-   * 
-   *  add object to queue, true if okay 
-   * 
-   * i fell asleep on my keyboard...
-   * 
-   * */ 
+  /**
+   *  Method that adds a String to the Queue if there is space
+   *
+   * @param obj String that will be added to the queue
+   * @return true if it is added and false if the queue is full
+   */
   public abstract boolean offer(String obj);
 
-  //returns + del 1st element; null if nothing in there
-   //
+  /**
+   * returns and deletes the element on index 0. If the queue is empty null is returned
+   *
+   * @return first element (on index 0) or null
+   */
+
   public abstract String poll();
 
-  /* 
-  same as poll, if there is nothing in there error NoSuchElementException
+
+
+   /**
+   * returns and deletes the element on index 0, if the queue is empty  NoSuchElementException gets thrown
+   * @return element on index 0 or null
    */
   public abstract String remove();
 
   // 1st element without delete, otherwise null
-   
+
+  /**
+   * returns element on index 0 but doesn't remove the element. Returns null if the queue is empty.
+   *
+   * @return element on index 0 or null
+   */
   public abstract String peek();
 
   // element is to peek what remove is to poll
-  
+
+  /**
+   * checks if there are elements left in the queue.
+   * If the queue is empty, null is returned if not, the element with index 0 gets returned
+   * @return element on index 0
+   */
   public abstract String element();
 }
