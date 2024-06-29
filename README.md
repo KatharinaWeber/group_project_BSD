@@ -32,17 +32,17 @@ indicates who will primarily take care f this branch and/or tasks.
     - [x] Address von Git Repository
     - [x] add Dependencies
 - [x] branch bug_hunt : both
-- [ ] branch drink : Lena
-    - [ ] add cocktails
-    - [ ] add interface drink
-    - [ ] liquid Objects
-    - [ ] Constructor
+- [x] branch drink : Lena
+    - [x] add cocktails
+    - [x] add interface drink
+    - [x] liquid Objects
+    - [x] Constructor
 - [ ] branch queue
-    - [ ] class drink queue
+    - [x] class drink queue
     - [ ] both same amount of methods (in own branch) -> queue_lastName
     - [ ] after above merge
-- [ ] branch javadoc : Kathi
-    - [ ] create javadoc comments
+- [x] branch javadoc : Kathi
+    - [x] create javadoc comments
 - [ ] branch tests : Lena
     - [ ] create tests -> 100% coverage (zb.: DrinkQueueTest.java)
     - [ ] distribute testing
