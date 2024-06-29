@@ -51,4 +51,15 @@ public class CocktailTest {
         Cocktail nonAlcoholicCocktail = new Cocktail("Soda Water", ingredients);
         assertFalse(nonAlcoholicCocktail.isAlcoholic());
     }
+
+    @Test
+    public void testGetName() {
+        assertEquals("Mojito", cocktail.getName());
+    }
+
+    @Test
+    public void testSetName() {
+       cocktail.setName("Sparkling Water");
+        assertEquals("Sparkling Water", cocktail.getName());
+    }
 }
