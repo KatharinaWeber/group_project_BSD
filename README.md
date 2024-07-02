@@ -37,18 +37,18 @@ indicates who will primarily take care f this branch and/or tasks.
     - [x] add interface drink
     - [x] liquid Objects
     - [x] Constructor
-- [ ] branch queue
+- [x] branch queue
     - [x] class drink queue
-    - [ ] both same amount of methods (in own branch) -> queue_lastName
-    - [ ] after above merge
+    - [x] both same amount of methods (in own branch) -> queue_lastName
+    - [x] after above merge
 - [x] branch javadoc : Kathi
     - [x] create javadoc comments
-- [ ] branch tests : Lena
-    - [ ] create tests -> 100% coverage (zb.: DrinkQueueTest.java)
-    - [ ] distribute testing
-- [ ] branch maven_site : both (Lena)
-    - [ ] integrate necessary project information, test statistics (jacoco) and API Documentation
-    - [ ] for every team member an individual markdown (member1.md,...)
+- [x] branch tests : Lena
+    - [x] create tests -> 100% coverage (zb.: DrinkQueueTest.java)
+    - [x] distribute testing
+- [x] branch maven_site
+    - [x] integrate necessary project information, test statistics (jacoco) and API Documentation
+    - [x] for every team member an individual markdown (member1.md,...)
 
 ## Getting Started
 To get started with this project, do these following steps:

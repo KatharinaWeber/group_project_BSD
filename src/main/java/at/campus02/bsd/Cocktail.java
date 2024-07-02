@@ -51,7 +51,7 @@ public class Cocktail extends Drink {
         for (int i = 0; i < ingredients.size(); i++) {
             alcoholVolume += ingredients.get(i).getVolume() * (ingredients.get(i).getAlcoholPercent() / 100.0);
         }
-        if (totalVolume == 0) {
+        if (alcoholVolume == 0) {
             return 0;
         } else {
             return (alcoholVolume / totalVolume) * 100;

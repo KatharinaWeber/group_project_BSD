@@ -1,12 +1,15 @@
 package at.campus02.bsd;
 
+
 import java.util.List;
 import java.util.NoSuchElementException;
+
 
 /**
  * Class DrinkQueue that should store Drinks in Datastructure Queue
  */
 public class DrinkQueue {
+
     /**
      * List of Drinks
      */
@@ -15,6 +18,7 @@ public class DrinkQueue {
      * Maximum Size of the Queue
      */
     int maxSize = 5;
+
 
     /**
      * Constructor with a list filled with Drink as a Parameter
@@ -81,7 +85,6 @@ public class DrinkQueue {
 
     /**
      * checks if there are elements left in the queue.
-     *
      * If the queue is empty, null is returned if not, the element with index 0 gets returned
      *
      * @return element on index 0
@@ -94,4 +97,6 @@ public class DrinkQueue {
         else return element;
     }
 
+
 }
+
