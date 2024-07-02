@@ -1,0 +1,13 @@
+<project name="Group Project">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Overview">
+            <item name="project information" href="good_style.html"/>
+            <item name="Lena Bichler" href="LenaBichler.html"/>
+            <item name="Katharina Weber" href="KatharinaWeber.html"/>
+        </menu>
+
+        <menu ref="reports"/>
+    </body>
+</project>
