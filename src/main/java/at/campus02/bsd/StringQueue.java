@@ -8,8 +8,13 @@ import java.util.NoSuchElementException;
  * Class that implements IQueue that stores Strings in a Queue Datastructure
  */
 public class StringQueue implements IQueue {
-
+  /**
+   * List that saves Strings
+   */
   private List<String> elements = new ArrayList<String>();
+  /**
+   * Declares the maxSize for the Queue
+   */
   private int maxSize = 5;
 
   /**
