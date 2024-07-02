@@ -1,7 +1,7 @@
 ## Individual Workload
-- Name: lena Bichler
+    Name: lena Bichler
 
-As seen in the [Readme](../../../README.md), we divided the workload between ourselves. I did these following parts:
+As seen in the Readme, we divided the workload between ourselves. I did these following parts:
 - branch readme and the README.md
 - developer Information in maven_detail
 - bug_hunt with Katharina Weber
