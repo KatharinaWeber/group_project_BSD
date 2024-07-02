@@ -12,12 +12,18 @@ public interface IQueue {
    */
   public abstract boolean offer(String obj);
 
+<<<<<<< HEAD
   /**
    * returns and deletes the element on index 0. If the queue is empty null is returned
    *
    * @return first element (on index 0) or null
    */
 
+=======
+
+  //returns + del 1st element; null if nothing in there
+   //
+>>>>>>> queue
   public abstract String poll();
 
 
