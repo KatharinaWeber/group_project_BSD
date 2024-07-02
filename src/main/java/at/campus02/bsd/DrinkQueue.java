@@ -4,46 +4,46 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class DrinkQueue implements IQueue{
-    List<Drink> arrayList = new ArrayList<>();
+public class DrinkQueue {
+    List<Drink> elements;
     int maxSize = 5;
 
-    public DrinkQueue(List<Drink> arrayList) {
-        this.arrayList = arrayList;
+    public DrinkQueue(List<Drink> elements) {
+        this.elements = elements;
     }
 
-    @Override
-    public boolean offer(String obj) {
-        if (arrayList.size() != maxSize)
-
-            arrayList.add(new Drink(obj));
+    public boolean offer(Drink obj) {
+        if (elements.size() != maxSize)
+            elements.add(obj);
         else
             return false;
 
         return true;
     }
 
-    @Override
-    public String poll() {
-        return null;
+    public Drink poll() {
+        Drink element = peek();
+        if (elements.size()>0){
+            elements.remove(0);
+        }
+        return element;
     }
 
-    @Override
-    public String remove() {
-        String element = poll();
+
+    public Drink remove() {
+        Drink element = poll();
         if (element == null)
             throw new NoSuchElementException("there's no element any more");
 
         return element;
     }
 
-    @Override
-    public String peek() {
+    public Drink peek() {
+
         return null;
     }
 
-    @Override
-    public String element() {
+    public Drink element() {
         return null;
     }
 }
