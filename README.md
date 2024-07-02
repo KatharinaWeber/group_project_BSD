@@ -38,15 +38,15 @@ indicates who will primarily take care f this branch and/or tasks.
     - [x] liquid Objects
     - [x] Constructor
 - [ ] branch queue
-    - [ ] class drink queue
-    - [ ] both same amount of methods (in own branch) -> queue_lastName
+    - [x] class drink queue
+    - [x] both same amount of methods (in own branch) -> queue_lastName
     - [ ] after above merge
 - [ ] branch javadoc : Kathi
     - [ ] create javadoc comments
-- [ ] branch tests : Lena
-    - [ ] create tests -> 100% coverage (zb.: DrinkQueueTest.java)
-    - [ ] distribute testing
-- [ ] branch maven_site : both (Lena)
+- [x] branch tests : Lena
+    - [x] create tests -> 100% coverage (zb.: DrinkQueueTest.java)
+    - [x] distribute testing
+- [ ] branch maven_site
     - [ ] integrate necessary project information, test statistics (jacoco) and API Documentation
     - [ ] for every team member an individual markdown (member1.md,...)
 
