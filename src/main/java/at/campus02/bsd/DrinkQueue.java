@@ -39,11 +39,18 @@ public class DrinkQueue {
     }
 
     public Drink peek() {
+        if (elements.isEmpty()) {
+            return null;
+        }
+        else return elements.get(0);
 
-        return null;
     }
 
     public Drink element() {
-        return null;
+        Drink element = peek();
+        if (element == null) {
+            throw new NoSuchElementException("there's no element any more");
+        }
+        else return element;
     }
 }
