@@ -4,49 +4,53 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class DrinkQueue implements IQueue{
-    List<Drink> arrayList = new ArrayList<>();
+public class DrinkQueue {
+    List<Drink> elements;
+    int maxSize = 5;
 
-
-
-    @Override
-    public boolean offer(String obj) {
-        return false;
+    public DrinkQueue(List<Drink> elements) {
+        this.elements = elements;
     }
 
-    @Override
-    public String poll() {
-        if (arrayList.size() > 0) {
-            return arrayList.remove(0).getName();
-        } else {
+    public boolean offer(Drink obj) {
+        if (elements.size() != maxSize)
+            elements.add(obj);
+        else
+            return false;
+
+        return true;
+    }
+
+    public Drink poll() {
+        Drink element = peek();
+        if (elements.size()>0){
+            elements.remove(0);
+        }
+        return element;
+    }
+
+
+    public Drink remove() {
+        Drink element = poll();
+        if (element == null)
+            throw new NoSuchElementException("there's no element any more");
+
+        return element;
+    }
+
+    public Drink peek() {
+        if (elements.size() == 0) {
             return null;
         }
+        else return elements.get(0);
+
     }
 
-    @Override
-    public String remove() {
-        String element = poll();
-        if (element == null) {
+    public Drink element() {
+        Drink element = peek();
+        if (element.equals(null)) {
             throw new NoSuchElementException("there's no element any more");
         }
-        return element;
+        else return element;
     }
-
-    @Override
-    public String peek() {
-        if (!arrayList.isEmpty()) {
-            return arrayList.get(0).getName();
-        }
-        else return null;
-    }
-
-    @Override
-    public String element() {
-        String element = peek();
-        if (element == null) {
-            throw new NoSuchElementException("there's no element any more");
-        }
-        return element;
-    }
-
 }
