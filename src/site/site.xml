@@ -3,7 +3,9 @@
     <version position="left"/>
     <body>
         <menu name="Overview">
-            <item name="project information" href="good_style.html"/>
+            <item name="Project Information" href="project-info.html"/>
+            <item name="Teststatistics" href="../site/jacoco/at.campus02.bsd/index.html"/>
+            <item name="API-Dokumentation" href="../site/apidocs/at/campus02/bsd/package-summary.html"/>
             <item name="Lena Bichler" href="LenaBichler.html"/>
             <item name="Katharina Weber" href="KatharinaWeber.html"/>
         </menu>
